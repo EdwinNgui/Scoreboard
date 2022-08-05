@@ -1,0 +1,80 @@
+@Font-face{
+    font-family: 'digital';
+    src: url('digital-7.regular.ttf');
+}
+
+body {
+    margin: 0;
+    background-color: #1D1D42;
+}
+
+h3{
+    color: #FFFFFF;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 110px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score{
+    text-align: center;
+    font-family: digital;
+    color: #F94F6D;
+    font-size: 80px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+.point-group{
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.point-btn{
+    border: 2px solid #6FCC97;
+    border-radius: 5px;
+    font-family: digital;
+    color: #6FCC97;
+    font-size: 35px;
+    background-color: #1D1D42;
+}
+
+#reset-btn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 25px;
+    border: 2px solid #F94F6D;
+    border-radius: 10px;
+    background-color: #F94F6D;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin: auto auto;
+}
+
+p{
+    background-color: #034fac;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin: auto auto;
+    width: 100%;
+    text-align: center;
+}
+
+#footer{
+    color: #6FCC97;
+}
+
+/* #1D1D42
+#4E2CEF
+#6FCC97
+#FFFFFF
+*/
